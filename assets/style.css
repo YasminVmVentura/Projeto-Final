@@ -1,10 +1,15 @@
+:root{
+    --text-color:#fff;
+    --card-back-color: #f70094de;
+    --card-back-color: #ea82c4;
+}
 body{
-    background-color:lightcoral;
+    background-color:rgb(99, 13, 13);
     font-family: cursive;
 }
 footer {
     background-color:black;
-    color:aliceblue;
+    color:rgb(41, 121, 191);
     position:fixed;
     bottom:0%;
     width:100%;
@@ -15,10 +20,15 @@ footer p{
     font-size: 0.6rem;
     margin-top: 0.5rem;
 }
+.cartao_conteudo {
+    background-color: var(--card-font-color);
+    text-align: center;
+    height: 100%;
+}
 #container {
     display: flex;
+    flex-wrap: wrap;
 }
 .cartao {
-    margin: 1rem 1rem;
-    background-color: cadetblue;
+    margin: 1rem 1rem:
 }
