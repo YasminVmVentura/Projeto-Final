@@ -1,27 +1,15 @@
-:root{
-    --text-color:#fff;
-    --card-back-color: #f70094de;
-    --card-back-color: #ea82c4;
+:root {
+    --text-color:white;
+    --card-front-color:rgb(153, 130, 238);
+    --card-back-color:rgb(22, 170, 196);
 }
-body{
-    background-color:rgb(99, 13, 13);
-    font-family: cursive;
+body {
+    background-color: rgb(197, 137, 243);
+    color: black;
+    font-family:cursive;
 }
-footer {
-    background-color:black;
-    color:rgb(41, 121, 191);
-    position:fixed;
-    bottom:0%;
-    width:100%;
-    height: 2rem;
-}
-footer p{
-    text-align: center;
-    font-size: 0.6rem;
-    margin-top: 0.5rem;
-}
-.cartao_conteudo {
-    background-color: var(--card-font-color);
+.cartao__conteudo {
+    background-color: var(--card-front-color);
     text-align: center;
     height: 100%;
 }
@@ -30,5 +18,35 @@ footer p{
     flex-wrap: wrap;
 }
 .cartao {
-    margin: 1rem 1rem:
+    margin: 1rem 1rem;
+    background-color: rgb(42, 25, 58);
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+.cartao__conteudo p {
+    padding: 4rem;
+    
+}
+.cartao__conteudo h3 {
+    background-color:rgb(138, 83, 241) ;
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
+}
+footer {
+    background-color:black;
+    color: rgb(41, 121, 191);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+}
+footer p {
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
 }
